@@ -1,0 +1,88 @@
+/* 
+The container for the calculator. 
+It is centered and takes up 90%
+of the width of its parent. 
+*/
+.calculator-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 
+The calculator itself. It has a light
+gray background, some padding, rounded corners, 
+a slight box shadow, and is displayed inline. 
+*/
+.calculator {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+/* 
+Styles for text input fields. They take up 82%
+of the width of their parent, have some 
+padding and margin, a light gray border,
+rounded corners, a sans-serif font, a font 
+size of 22px, and a height of 50px. 
+*/
+input[type="text"] {
+  width: 82%;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-size: 22px;
+  height: 50px;
+}
+
+/* 
+Styles for the calculator display. 
+It has the same styles as other text 
+input fields, but with a smaller 
+bottom margin. 
+*/
+input.calculator-display {
+  width: 82%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* 
+Styles for buttons. They have a width and height of 50px, 
+some margin, a font size of 18px, no border, 
+a dark gray background, white text, rounded corners, 
+and change the cursor to a pointer when hovered over.
+*/
+button {
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 
+Styles for the equal button. 
+It has a red background, takes up 80% 
+of the width of its parent, has a font 
+size of 18px, and a bottom margin of 20px. 
+*/
+.equal-button {
+  background-color: #bd0003;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}

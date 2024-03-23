@@ -1,0 +1,25 @@
+{
+    "name": "david/calculatorapp",
+    "description": "Aplicación para gestionar tareas y calculos matemáticos",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "David\\Calculadora\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "E. David Riascos M.",
+            "email": "emer.riascos@correounivalle.edu.co"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-tokenizer": "*",
+        "illuminate/http": "^8.0"
+    }
+}

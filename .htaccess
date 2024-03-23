@@ -1,0 +1,20 @@
+# Description: This file is used to configure the Apache server
+DirectoryIndex index.php index.html 
+Options -Indexes
+Options -MultiViews
+
+# ennabled engine rewrite of URL
+RewriteEngine On
+
+# Redirect all to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Error pages
+ErrorDocument 403 /public/403.php
+ErrorDocument 404 /public/404.php
+
+#Require all granted
+#Require not ip 100.0.1.0
+

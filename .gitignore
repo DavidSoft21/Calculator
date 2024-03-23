@@ -1,0 +1,33 @@
+/vendor
+/.phpunit.cache
+/node_modules
+/app/backend/Config/config.php
+/storage/*.key
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+/.vscode
+node_modules
+main.css.map
+.DS_Store
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+terminal.glue
+
+#template Files
+build
+
